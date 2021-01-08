@@ -76,10 +76,9 @@ class HammingCode:
             # Convert binary to decimal
         return int(str(res), 2)
 
-'''
+
 data = '1011001'
 h = HammingCode(data)
 hc = h.calc_parity_bits()
 print("Hamming code generated would be:", hc)
 print("The position of error  " + str(h.detect_error(hc)))
-'''
